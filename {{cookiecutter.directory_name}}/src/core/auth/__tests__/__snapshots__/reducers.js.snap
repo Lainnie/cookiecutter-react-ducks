@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`auth reducers auth/ALREADY_LOGGED_IN gets localStorage accessToken and username 1`] = `
+Object {
+  "login": Object {
+    "accessToken": "12345678",
+    "accountId": "",
+    "error": false,
+    "username": "admin",
+  },
+}
+`;
+
+exports[`auth reducers auth/LOGIN_FAILURE resets any existing values 1`] = `
+Object {
+  "login": Object {
+    "accessToken": "",
+    "accountId": "",
+    "error": true,
+    "username": "",
+  },
+}
+`;
+
+exports[`auth reducers auth/LOGIN_SUCCESS updates username and accessToken 1`] = `
+Object {
+  "login": Object {
+    "accessToken": "1234567890",
+    "accountId": "",
+    "error": false,
+    "username": "admin",
+  },
+}
+`;

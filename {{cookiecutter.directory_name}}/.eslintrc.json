@@ -1,0 +1,71 @@
+{
+  "root": true,
+  "extends": [
+    "airbnb",
+    "prettier"
+  ],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "plugins": [
+    "import",
+    "jsx-a11y",
+    "react"
+  ],
+  "globals": {
+    "Raven": true,
+    "erms_info": true
+  },
+  "rules": {
+    "indent": ["warn", 2, {"SwitchCase": 1}],
+    "camelcase": 0,
+    "no-debugger": 0,
+    "react/forbid-prop-types": [ 0, []],
+    "react/require-default-props": 1,
+    "react/jsx-filename-extension": 0,
+    "no-underscore-dangle": 0,
+    "no-plusplus": [
+      2,
+      { "allowForLoopAfterthoughts": true }
+    ],
+    "no-useless-escape": 1,
+    "comma-dangle": ["warn", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "never"
+    }],
+    "no-nested-ternary": 1,
+    "no-bitwise": 0,
+    "semi": [
+      "error",
+      "always"
+    ],
+    "no-continue": 0,
+    "no-unneeded-ternary": "off",
+    "linebreak-style": "off",
+    "max-len": ["error", {
+      "code": 150,
+      "comments": 100
+    }],
+    "no-unused-vars": ["warn", {
+      "vars": "all",
+      "args": "all"
+    }],
+    "react/sort-comp": "off",
+    "react/prop-types": "off",
+    "prefer-rest-params": "off",
+    "no-class-assign": "warn"
+  }
+}

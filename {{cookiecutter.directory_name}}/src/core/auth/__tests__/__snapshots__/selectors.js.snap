@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`auth selectors returns accessToken using .getToken 1`] = `"1234567890"`;
+
+exports[`auth selectors returns accountId using .getAccountId 1`] = `1`;
+
+exports[`auth selectors returns error using .getSubmitError 1`] = `true`;
+
+exports[`auth selectors returns username using .getUsername 1`] = `"storetail"`;

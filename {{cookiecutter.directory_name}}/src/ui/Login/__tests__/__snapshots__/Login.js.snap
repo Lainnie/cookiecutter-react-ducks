@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login renders correctly 1`] = `
+<styled.div
+  className="background_login"
+>
+  <styled.img
+    src="images/logo_login.png"
+  />
+  <ReduxForm
+    onSubmit={[Function]}
+  />
+</styled.div>
+`;

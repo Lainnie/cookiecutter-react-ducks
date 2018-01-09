@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`auth operations has a .alreadyLoggedIn methods 1`] = `
+Object {
+  "type": "auth/ALREADY_LOGGED_IN",
+}
+`;
+
+exports[`auth operations has a .login methods 1`] = `
+Object {
+  "payload": Object {
+    "password": "1234567890",
+    "username": "Storetail",
+  },
+  "type": "auth/LOGIN",
+}
+`;
+
+exports[`auth operations has a .loginFailure methods 1`] = `
+Object {
+  "payload": Object {
+    "error": Object {
+      "code": "10014",
+      "message": "Invalid credentials",
+    },
+  },
+  "type": "auth/LOGIN_FAILURE",
+}
+`;
+
+exports[`auth operations has a .loginSuccess methods 1`] = `
+Object {
+  "payload": Object {
+    "accessToken": "1234567890",
+    "username": "Storetail",
+  },
+  "type": "auth/LOGIN_SUCCESS",
+}
+`;
