@@ -13,6 +13,8 @@ This cookiecutter comes armed with react, redux, redux-saga, jest and his send b
 
 `git init`
 
+`echo API_URL=https://your.api > .env.dev`
+
 `yarn`
 
 `yarn run test`
