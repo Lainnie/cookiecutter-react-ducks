@@ -3,7 +3,7 @@ Visit to see the documentation.
 
 ## React Ducks CookieCutter
 
-This cookiecutter comes armed with react, redux, redux-saga, jest and his send by the ducks army.
+This cookiecutter comes armed with react, redux, redux-saga, jest and is sent by the ducks army.
 
 ## Usage
 
