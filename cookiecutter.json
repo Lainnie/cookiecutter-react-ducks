@@ -1,5 +1,8 @@
 {
   "directory_name": "Changeme",
   "app_name": "Me too please",
-  "app_version": "1.0.0"
+  "app_version": "1.0.0",
+  "_copy_without_render": [
+    "*.js"
+  ]
 }
