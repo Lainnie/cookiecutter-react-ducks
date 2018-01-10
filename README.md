@@ -18,3 +18,9 @@ This cookiecutter comes armed with react, redux, redux-saga, jest and his send b
 `yarn run test`
 
 `yarn run start`
+
+## Troubleshooting
+
+If when launching `yarn run test/start` you have a crash, it is possible that you hit the limit of files watched, depending on your OS of choice look for a way to increase it.
+
+Arch Linux: `echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p`
