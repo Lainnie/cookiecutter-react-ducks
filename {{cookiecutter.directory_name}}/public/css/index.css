@@ -3,7 +3,7 @@ html, body, #root, main {
 }
 
 .background_login {
-  background: url(/images/background_login.png) no-repeat center center fixed;
+  background: url(/images/background_login.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
